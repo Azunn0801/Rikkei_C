@@ -7,18 +7,26 @@ int main()
     int tmp, n;
     printf("Moi nhap so co 4 chu so\n");
     scanf("%d", &n);
-    while(abs(n) < 1000 || abs(n) > 9999)
+    switch (1)
     {
-        printf("So khong hop le, vui long nhap lai\n");
-        scanf("%d", &n);
+        case 1:
+            printf("Ket qua dao nguoc so la ");
+        case 2:
+            tmp = n % 10;
+            n /= 10;
+            printf("%d", tmp);
+        case 3:
+            tmp = n % 10;
+            n /= 10;
+            printf("%d", tmp);
+        case 4:
+            tmp = n % 10;
+            n /= 10;
+            printf("%d", tmp);
+        default:
+            tmp = n % 10;
+            n /= 10;
+            printf("%d", tmp);
     }
-    printf("Ket qua dao nguoc so la ");
-    while(n > 10)
-    {
-        tmp = n % 10;
-        n /= 10;
-        printf("%d", tmp);
-    }
-    printf("%d", n);
     return 0;
 }
