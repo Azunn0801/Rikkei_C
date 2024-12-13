@@ -38,7 +38,7 @@
         <mxCell id="MZPHA3aIIXQyihihCdnl-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MZPHA3aIIXQyihihCdnl-7" target="MZPHA3aIIXQyihihCdnl-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MZPHA3aIIXQyihihCdnl-7" value="Nếu i &amp;lt;= n" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="MZPHA3aIIXQyihihCdnl-7" value="Nếu i * 2 &amp;lt;= n" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="277" y="340" width="154" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MZPHA3aIIXQyihihCdnl-9" value="Sai" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
