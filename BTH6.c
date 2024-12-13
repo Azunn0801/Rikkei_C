@@ -20,7 +20,7 @@ int main() {
                 break;
             }
         }
-        if (isPrime) {
+        if (Prime) {
             printf("%d ", num);
             count++;
         }
