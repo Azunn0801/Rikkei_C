@@ -104,6 +104,9 @@
         <mxCell id="BJzjVUD4n1FXYDh9LUyM-10" value="Đúng" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="580" y="320" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="BJzjVUD4n1FXYDh9LUyM-12" value="Sai" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
