@@ -10,7 +10,7 @@ int main()
     for(int i = 0; i < n; i++)
     {
         printf("\nNhap phan tu tai vi tri %d: ", i);
-        scanf("%d", &arr[i]);
+        scanf("%d", arr[i]);
         sum += arr[i];
     }
     printf("\nTong cac phan tu da nhap: %d", sum);
