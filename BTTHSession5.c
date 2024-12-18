@@ -10,11 +10,11 @@ int main()
     for(int i = 0; i < n; i++)
     {
         printf("\nNhap phan tu tai vi tri %d: ", i);
-        scanf("%d", arr[i]);
+        scanf("%d", arr + i);
         sum += arr[i];
     }
     printf("\nTong cac phan tu da nhap: %d", sum);
-    printf("\nTrung binh cac phan tu da nhap: %d", sum/n);
+    printf("\nTrung binh cac phan tu da nhap: %.2f", ((float)sum)/n);
 
     return 0;
 }
