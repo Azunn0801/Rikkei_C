@@ -4,7 +4,7 @@
 int main()
 {
     int arr[5] = {5, 46, 2, 17, 20};
-    for(int i = 0; i < 5; i++){
+    for(int i = 0; i < 5 - 1; i++){
         int min_idx = i;
         for(int j = i + 1; j < 5; j++){
             if(arr[min_idx] > arr[j]){
