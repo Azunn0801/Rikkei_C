@@ -12,7 +12,7 @@ int main()
     for(int i = 0; i < strlen(str); i++){
         count_chr[(int)str[i]]++;
     }
-    for(int i = 48; i < 122; i++){
+    for(int i = 48; i <= 122; i++){
         if((i >= 58 && i <= 64) || (i >= 91 && i <= 96)){
             continue;
         }
